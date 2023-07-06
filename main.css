@@ -236,8 +236,8 @@ body {
 }
 
 .quote__container {
-    padding-left: 18rem;
-    padding-right: 10rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 
@@ -261,11 +261,13 @@ body {
     background-color: #3882f6;
     padding: 8px 12px;
     border-radius: 25px;
+    transition: 0.3s;
 
 }
 
-.button:hover {
-    font-weight: 900;
+button:hover {
+    background-color: hsl(217, 91%, 30%);
+    transition: 0.3s;
 }
 
 
