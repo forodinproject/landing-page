@@ -226,6 +226,11 @@ body {
     padding-bottom: 2.5rem;
 }
 
+.header.py {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .button {
     padding: 0.3rem 1.2rem;
 }
@@ -250,6 +255,17 @@ body {
 
 .hero-subtext {
     margin-bottom: 0.625rem;
+}
+
+.header-links a:hover {
+    background-color: #3882f6;
+    padding: 8px 12px;
+    border-radius: 25px;
+
+}
+
+.button:hover {
+    font-weight: 900;
 }
 
 
