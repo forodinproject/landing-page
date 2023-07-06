@@ -1,0 +1,309 @@
+
+/*
+1. Use a more-intuitive box-sizing model.
+*/
+*, 
+*::before, 
+*::after {
+box-sizing: border-box;
+}
+/*
+2. Remove default margin
+*/
+* {
+margin: 0;
+}
+/*
+Typographic tweaks!
+3. Add accessible line-height
+4. Improve text rendering
+*/
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+/*
+5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+/*
+6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+font: inherit;
+}
+/*
+7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+/*
+8. Create a root stacking context
+*/
+#root, #__next {
+isolation: isolate;
+}
+/*
+9. Remove ul list style
+*/
+ul {
+    padding: 0;
+    list-style: none;
+}
+/*
+10. Remove link styling
+*/
+a {
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------*/
+body {
+    font-family: Roboto ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height: 100vh;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+
+.max-w {
+    max-width: 80rem;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-darkblue {
+    background-color: #1f2937;
+}
+
+.gray {
+    color: #e5e7eb;
+}
+
+.brdr-blue {
+    border: 5px solid #3882f6;
+}
+
+.logo,
+.hero-heading
+{
+    color: #f9faf8;
+}
+
+.hero-subtext,
+.header-links {
+    font-size: 1.125rem;
+
+}
+
+.wt-bold {
+    font-weight: 700;
+}
+
+
+.bg-blue {
+    background-color: #3882f6;
+}
+
+.bg-gray {
+    background-color: #e5e7eb;
+}
+
+
+
+.quote-text {
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.hero__right {
+    align-self: center;
+    color: #e5e7eb;
+}
+
+.button-hero {
+    border: 2px;
+    border-radius: 4px;
+}
+
+.cta-container {
+    margin-top: auto;
+
+}
+
+.cta-button {
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.cta__text {
+    color: #e5e7eb;
+
+}
+
+.quote-author {
+    align-self: flex-end;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+
+.header-links {
+    gap: 1em;
+}
+
+.px {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.hero.py,
+.quote.py,
+.cta-container {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.cta.py,
+.footer {
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.information-container.py {
+    padding-bottom: 5rem;
+}
+.information-heading.py {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.button {
+    padding: 0.3rem 1.2rem;
+}
+
+.quote__container {
+    padding-left: 18rem;
+    padding-right: 10rem;
+}
+
+
+.max-w, body {
+    min-width: 0px;
+}
+
+.hero {
+    gap: 1rem;
+}
+
+.hero-heading {
+    margin-bottom: 1rem;
+}
+
+.hero-subtext {
+    margin-bottom: 0.625rem;
+}
+
+
+
+
+
+
+
+/*temporary placeholders*/
+.hero__right {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.hero-img {
+
+    width: 300px;
+    height: 120px;
+    background-color: hsl(0, 0%, 51%);
+}
+
+.hero__left {
+    flex: 1; 
+}
+
+.media-block {
+    flex: 1;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    align-items: center;
+}
+
+.media-block__img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.cta {
+    border-radius: 10px;
+}
+
+.media-block__text {
+    width: 150px;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
